@@ -1,0 +1,27 @@
+.container{
+    background-color: aqua;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 1rem;
+    
+}
+.square{
+    border: 1px solid black;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    font-size: 3rem;
+}
+.cover{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+/* .restartbtn{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
